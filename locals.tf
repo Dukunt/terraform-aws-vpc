@@ -9,7 +9,6 @@ locals {
         local.common_tags,
         {
             Name = "${var.project}-${var.environment}"   #roboshop-dev
-        },
-        var.vpc_tags
+        }
     )
 }
