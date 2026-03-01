@@ -14,8 +14,6 @@ variable "vpc_cidr" {
 
 variable "vpc_tags" {
     type = map
-    default = {
-        project ="roboshop-test"
-        environment = "dev"
-    }
+    default = {}
+    
 }
